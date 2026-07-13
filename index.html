@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Graybox Dynamics develops physics-grounded machine learning for system identification, simulation, state estimation, and autonomous systems." />
+  <meta name="theme-color" content="#202124" />
+
+  <title>Graybox Dynamics</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Graybox Dynamics home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <rect x="7" y="7" width="50" height="50" rx="3"></rect>
+            <path d="M17 33c5-16 11-16 15 0s10 16 15 0M17 31c5 16 11 16 15 0s10-16 15 0"></path>
+          </svg>
+        </span>
+        <span>Graybox Dynamics</span>
+      </a>
+
+      <a class="contact-link" href="mailto:alberto@grayboxdynamics.com">Contact</a>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow">Physics-grounded intelligence</div>
+
+      <h1>
+        Models that learn from data<br />
+        without forgetting reality.
+      </h1>
+
+      <p class="lede">
+        Graybox Dynamics develops interpretable machine-learning methods for
+        system identification, state estimation, simulation, and autonomous systems.
+      </p>
+
+      <div class="actions">
+        <a class="primary-button" href="mailto:alberto@grayboxdynamics.com">
+          Get in touch
+        </a>
+        <a class="secondary-link" href="#focus">What we work on</a>
+      </div>
+    </section>
+
+    <section id="focus" class="focus-grid" aria-label="Areas of focus">
+      <article>
+        <span class="number">01</span>
+        <h2>System identification</h2>
+        <p>Infer compact, useful models of physical systems from indirect and imperfect measurements.</p>
+      </article>
+
+      <article>
+        <span class="number">02</span>
+        <h2>State estimation</h2>
+        <p>Recover hidden physical states through model-based inference, sensor fusion, and uncertainty-aware estimation.</p>
+      </article>
+
+      <article>
+        <span class="number">03</span>
+        <h2>Simulation &amp; sim-to-real</h2>
+        <p>Combine physical structure and learned components to close the gap between simulated and deployed systems.</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>© <span id="year"></span> Graybox Dynamics LLC</span>
+      <a href="mailto:alberto@grayboxdynamics.com">contact@grayboxdynamics.com</a>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
