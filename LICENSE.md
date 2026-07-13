@@ -1,6 +1,6 @@
 # Proprietary Software License Agreement
 
-**Copyright (c) 2026 [Graybox Dynamics LLC]. All rights reserved.**
+**Copyright (c) 2026 Graybox Dynamics LLC. All rights reserved.**
 
 ## 1. Terms and Ownership
 This software and all accompanying documentation (the "Software") are the sole and exclusive property of **Graybox Dynamics LLC** (the "Owner"). The Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.
